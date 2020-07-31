@@ -3,6 +3,7 @@ import React, { useState, useEffect } from 'react';
 const Home = () => {
   const [data, setData] = useState([]);
 
+  // use effect
   useEffect(() => {
     fetch('/allposts', {
       headers: {
