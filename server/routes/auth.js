@@ -45,7 +45,7 @@ router.post('/signup', (req, res) => {
     });
 });
 
-// Signin ////////////////////////////////////////////////
+// Signin user ////////////////////////////////////////////////
 router.post('/signin', (req, res) => {
   const { email, password } = req.body;
   if (!email || !password) {

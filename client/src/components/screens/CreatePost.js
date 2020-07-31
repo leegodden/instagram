@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import M from 'materialize-css';
 import { useHistory } from 'react-router-dom';
 
+// Create a new paost
 const CreatePost = () => {
   const history = useHistory();
   const [title, setTitle] = useState('');
